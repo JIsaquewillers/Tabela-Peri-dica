@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+h1{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+color: aquamarine;
+border: 2px solid black;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;  
+   
+}
+tr{
+    border: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 12px;
+}   
+#infor{
+    width:600px;
+    display: block;
+    float: left;
+    height: 380px;
+    background-color: antiquewhite;
+    position:absolute;
+    margin-left: 300px;
+    display: non;
+    border: 1px solid black;
+}
