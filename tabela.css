@@ -12,21 +12,19 @@ border: 2px solid black;
 }
 table{
     border: 1px solid black;
-    border-collapse: collapse;  
-   
+    
 }
 tr{
-    border: 1px solid black;
-
+    border: none;
 }
 td{
-    border: 1px solid black;
+    border: none;
     width: 70px;
     height: 70px;
     text-align: center;
-    font-size: 12px;
+    font-size: 12px;    
 }   
-#infor{
+#card{
     width:600px;
     display: block;
     float: left;
@@ -34,6 +32,5 @@ td{
     background-color: antiquewhite;
     position:absolute;
     margin-left: 300px;
-    display: non;
     border: 1px solid black;
 }

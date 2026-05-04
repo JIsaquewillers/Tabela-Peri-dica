@@ -13,8 +13,8 @@ for(let i = 0; i < 18; i++){
     }
 //coloca as colunas dentro da tabela//
     tabela.appendChild(tr)
+    
 }
-
 //pega a colecaElementos e cria um laço de repetição com foreach.//
 //onde pega cada elemento(e)//
 colecaoElementos.forEach((e) => {
@@ -28,7 +28,26 @@ colecaoElementos.forEach((e) => {
     <p>${e.nome}</p>
     <p>${e.massaAtomica}</p>`
     td.elemento = e
-})      
+    td.style.backgroundColor = e.corGrupo;
+    
 
-        
+ /////////////////////////////
+    const info = document.getElementById("info")
+
+info.innerHTML = `
+    <strong>${e.nome}</strong><br>
+    Número: ${e.numeroAtomico}<br>
+    Massa: ${e.massaAtomica}<br>
+    Grupo: ${e.grupo}`  
+});
+
+
+
+
+
+
+
+
+
+
 
