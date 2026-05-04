@@ -7,12 +7,11 @@ font-size: 50px;
 font-weight: bold;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
-color: aquamarine;
-border: 2px solid black;
+color:gray ;
 }
 table{
     border: 1px solid black;
-    
+
 }
 tr{
     border: none;
@@ -26,11 +25,26 @@ td{
 }   
 #card{
     width:600px;
-    display: block;
+    display: flex;
     float: left;
     height: 380px;
     background-color: antiquewhite;
     position:absolute;
-    margin-left: 300px;
+    margin-left: 500px;
     border: 1px solid black;
+    display: non;
+}
+
+#nome{
+    color: red;
+    font-size: 50px;
+    margin-left: 20px;
+}
+#simbolo{
+    font-size: 100px;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+.dados{
+    margin-left: 20px;
 }
